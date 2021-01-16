@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		48695FAD25B2259B0084A6B9 /* BlurFadeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48695FAC25B2259B0084A6B9 /* BlurFadeApp.swift */; };
-		48695FAF25B2259B0084A6B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48695FAE25B2259B0084A6B9 /* ContentView.swift */; };
+		48695FAF25B2259B0084A6B9 /* MaterialBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48695FAE25B2259B0084A6B9 /* MaterialBlur.swift */; };
 		48695FB125B225A60084A6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48695FB025B225A60084A6B9 /* Assets.xcassets */; };
 		48695FB425B225A60084A6B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48695FB325B225A60084A6B9 /* Preview Assets.xcassets */; };
 		48695FBF25B225A70084A6B9 /* BlurFadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48695FBE25B225A70084A6B9 /* BlurFadeTests.swift */; };
 		48695FCA25B225A70084A6B9 /* BlurFadeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48695FC925B225A70084A6B9 /* BlurFadeUITests.swift */; };
+		48695FE125B24BAA0084A6B9 /* RegularBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48695FE025B24BAA0084A6B9 /* RegularBlur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* Begin PBXFileReference section */
 		48695FA925B2259B0084A6B9 /* BlurFade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurFade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48695FAC25B2259B0084A6B9 /* BlurFadeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurFadeApp.swift; sourceTree = "<group>"; };
-		48695FAE25B2259B0084A6B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48695FAE25B2259B0084A6B9 /* MaterialBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialBlur.swift; sourceTree = "<group>"; };
 		48695FB025B225A60084A6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48695FB325B225A60084A6B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48695FB525B225A60084A6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		48695FC525B225A70084A6B9 /* BlurFadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurFadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48695FC925B225A70084A6B9 /* BlurFadeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurFadeUITests.swift; sourceTree = "<group>"; };
 		48695FCB25B225A70084A6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48695FE025B24BAA0084A6B9 /* RegularBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularBlur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				48695FAC25B2259B0084A6B9 /* BlurFadeApp.swift */,
-				48695FAE25B2259B0084A6B9 /* ContentView.swift */,
+				48695FAE25B2259B0084A6B9 /* MaterialBlur.swift */,
+				48695FE025B24BAA0084A6B9 /* RegularBlur.swift */,
 				48695FB025B225A60084A6B9 /* Assets.xcassets */,
 				48695FB525B225A60084A6B9 /* Info.plist */,
 				48695FB225B225A60084A6B9 /* Preview Content */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48695FAF25B2259B0084A6B9 /* ContentView.swift in Sources */,
+				48695FAF25B2259B0084A6B9 /* MaterialBlur.swift in Sources */,
 				48695FAD25B2259B0084A6B9 /* BlurFadeApp.swift in Sources */,
+				48695FE125B24BAA0084A6B9 /* RegularBlur.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
